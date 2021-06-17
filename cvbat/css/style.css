@@ -1,0 +1,24 @@
+*{margin: 0%;
+    font-family: 'Times New Roman', Times, serif;}
+header{text-align: center;
+        background-color: #E5E5E5;
+}
+h1, h2{background-color: #c4c4c4;
+    color: #005677;
+}
+h1{ text-align: center;
+    line-height: 1.7 ;
+    font-size: 35px;
+    letter-spacing: 10px
+}
+h2{letter-spacing: 8px}
+main{margin: 100px auto;
+    max-width: 950px;
+}
+#datos{font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+.personales{font-style: italic;
+             font-weight: bold;
+}
