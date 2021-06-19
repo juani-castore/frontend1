@@ -1,0 +1,21 @@
+/* clases generales */
+*{margin: 0%;}
+/* header */
+
+#negro{
+    background-color:black;
+    color: white;  
+    background-size: 300px 100px;
+    }
+.flecha1{
+        position: absolute;
+        left: 1360px;
+        }
+.flecha2{
+            position: absolute;
+            left: 1440px;
+            }
+
+/* main */
+
+/* footer */

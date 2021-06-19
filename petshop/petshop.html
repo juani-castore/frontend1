@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css\style.css">
+    <link href="css\style.css" rel="stylesheet" >
 </head>
 <body>
     <header>
         <section id="negro">
             <p>Grandes ofertas en comederos
-                <span>Español</span>
-                <span>ARG$</span>
+                <span class="flecha1">Español <a href="#"><i class="fas fa-angle-down"></i></a></span>
+                <span class="flecha2">ARG$ <a href="#"><i class="fas fa-angle-down"></i></a></span>
             </p>
         </section>
         <section id="naranja">
-            <h1>Front<span id="catdog">Cat&Dog</span></h1>
+            <h1><img src="img/Cat.png">Front<span id="catdog">Cat&Dog<img src="img/Dog.png"></span></h1>
             <nav>
                     <ul>
                         <li><a href="#"><i class="fas fa-paw"></i>Categorías</a></li>
@@ -46,20 +46,72 @@
             </nav>
 
         </section>
+        <section>
+            <nav>
+                <ul type="none" id="productos">
+                    <li>
+                        <ul type="none" id="img1">
+                            <li><a><img src="img\churrasquito.png"></a></li>
+                            <li class="nombreprodu">Juguete Churrasquito</li>
+                            <li class="precio">$150</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul type="none" id="img2">
+                            <li><a><img src="img\comedero.png"></a></li>
+                            <li class="nombreprodu">Comedero para perro</li>
+                            <li class="precio">$250</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul type="none" id="img3">
+                            <li><a><img src="img\Huesito.png"></a></li>
+                            <li class="nombreprodu">Juguete Huesito</li>
+                            <li class="precio">$650</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <h3>Contáctanos</h3>
+            <ul type="none">
+                <li>Nombre y Apellido</li>
+                <li>Ingresá tu correo electrónico</li>
+                <li>Teléfono</li>
+            </ul>
+            <nav>
+                <button>Resetear</button>
+                <button>Enviar</button>
+            </nav>
+        </section>
+        <section>
+            <i class="far fa-envelope"></i>
+            <span>Suscríbete para más novedades</span>
+            <span>Ingresá tu correo electronico</span>
+            <button>Suscribirme</button>
+        </section>
     </main>
     <footer>
-        <img src="Icono.png">
-            <h3>Localidad</h3>
-            <p>calle - provincia</p>
-        <img src="Icono (1).png">
-            <h3>Telefono</h3>
-            <p>Nro de telefono</p>
-        <img src="Icono (2).png">
-            <h3>Correo Electronico</h3>
-            <p>Direccion de correo</p>
-        <img src="Logo (1).png">
-        <hr>
-        <p>todos los erechos reservados frontend</p>
+        <ul type="none">
+            <li>
+                <img src="img\Icono.png">
+                <span>Teléfono</span>
+                <span>Número de teléfono</span>
+            </li>
+            <li>
+                <img src="img\Icono.png">
+                <span>Teléfono</span>
+                <span>Número de teléfono</span>
+            </li>
+            <li>
+                <img src="img\Icono.png">
+                <span>Teléfono</span>
+                <span>Número de teléfono</span>
+            </li>
+        </ul>
+        <p id="titulo"><img src="img/Cat.png">Front<span id="catdog">Cat&Dog<img src="img/Dog.png"></span></p>
+        <p id="derechos">Todos los derechos reservados Front End</p>
     </footer>
 </body>
 </html>
