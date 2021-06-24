@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* header */
+header{
+    font-size: 20px;
+    background-color: black;
+    height: 100px;
+    padding: .8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* main */
+
+main{
+    display: flex;
+
+}
+
+main h2{
+    color: red;
+}
+main h2 span{
+    color: white;
+}
+#gratis{
+    background-image: url("https://github.com/juani-castore/frontend1/blob/main/pizzafront/img/delivery.jpg")
+}
