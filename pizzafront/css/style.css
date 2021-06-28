@@ -26,15 +26,86 @@ header ul{
 
 main{
     display: flex;
+    justify-content: space-around;
+    height: 450px;
+    margin: 50px 25px;
 
 }
 
 main h2{
+    height: 100%;
+    width: 50%;
     color: red;
+    background-size: cover;
 }
 main h2 span{
     color: white;
 }
 #gratis{
-    background-image: url("https://github.com/juani-castore/frontend1/blob/main/pizzafront/img/delivery.jpg")
+    background-image: url("https://github.com/juani-castore/frontend1/blob/main/pizzafront/img/delivery.jpg?raw=true");
+}
+main article{
+    height: 100%;
+    width: 50%;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+}
+main article section{
+    position: absolute;
+    display: flex;
+}
+main article section div{
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+}
+main article section div ol{
+
+    font-size: 20px;
+    line-height: 35px;
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+main article section img{
+    position: relative;
+    left: 100px;
+    height: 225px;
+    width: 170px;
+    align-self: flex-end;
+}
+
+/* footer */
+
+footer{
+    font-size: 20px;
+    background-color: black;
+    height: 100px;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul{
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 35px;
+    position: relative;
+    top: -15px;
+}
+
+footer img{
+    position: relative;
+    left: 1000px;
 }

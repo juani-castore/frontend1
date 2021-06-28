@@ -1,21 +1,192 @@
 /* clases generales */
-*{margin: 0%;}
+*{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /* header */
 
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 #negro{
-    background-color:black;
+    background-color:black; 
+    padding: 7px;
     color: white;  
     background-size: 300px 100px;
-    }
+}
+
 .flecha1{
-        position: absolute;
-        left: 1360px;
-        }
+    position: absolute;
+    left: 1580px;
+}
+
 .flecha2{
-            position: absolute;
-            left: 1440px;
-            }
+    position: absolute;
+    left: 1680px;
+}
+
+#naranja{
+    position: relative;
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    padding: 40px;
+}
+#naranja ul{
+    width: 35%;
+    position: absolute;
+    right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    display: flex;
+
+    width: 40%;
+}
+
+h1{
+    color: white;
+    font-size: 200%;
+
+}
+
+h1 span{
+    color: black;
+}
+
+img{
+    align-self: center;
+    width: 25px;
+    height: 25px;
+}
+#naranja ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+}
+
 
 /* main */
 
+/* seccion principal */
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+    background-image: url("bowl-and-pet-daities-on-green-background 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal div{
+    width: 28%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 330px;
+    right: 50px;
+    background-color: white;
+    border-radius:  7px;
+}
+
+#placer{
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+#descuento{
+    position: relative;
+    right: 205px;
+    top: 40px;
+    font-size: 20px;
+}
+
+#comederos{
+    position: relative;
+    right: 240px;
+    top: 55px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+/* seccion secundaria */
+
+#secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secundaria img{
+    position: relative;
+    top: 25px;
+    width: 5%;
+    height: auto;
+}
+
+#secundaria h2{
+    position: relative;
+    top: 25px;
+    font-size: 45px;
+}
+
+.productos{
+    position: relative;
+    top: 40px;
+    font-size: 19px;
+}
+
+#precios{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 150px;
+}
+
+.cosas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #FBFAF6;
+    height: 350px;
+    width: 300px;
+}
+
+.imgcosas{
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 15px;
+}
+
+.nombreprodu{
+    text-align: center;
+    position: relative;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.precio{
+    text-align: center;
+    position: relative;
+    right: 17px;
+    font-size: 20px;
+    color: #F0A83E;
+    ;
+}
 /* footer */
